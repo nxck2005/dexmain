@@ -1,0 +1,10 @@
+[project]
+name = "dex"
+version = "1.1.0"
+description = "A Pokedex app"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "textual>=6.5.0",
+    "ascii-magic",
+]

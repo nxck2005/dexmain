@@ -1,0 +1,42 @@
+Screen {
+    background: $background;
+    color: $text;
+}
+
+Header, Footer {
+    background: $primary;
+    color: $text;
+}
+
+Input {
+    width: 100%;
+    margin-bottom: 1;
+}
+
+Horizontal {
+    layout: horizontal;
+    width: 100%;
+    height: 100%;
+}
+
+DexEntryInfo {
+    width: 35%;
+    height: 100%;
+    border: round $panel;
+    padding: 1;
+}
+
+#art_display {
+    width: 30%;
+    height: 100%;
+    border: round $panel;
+    padding: 1;
+    overflow: auto;
+}
+
+DataTable {
+    width: 35%;
+    height: 100%;
+    border: round $panel;
+    padding: 1;
+}
